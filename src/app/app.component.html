@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<popup #popup>
+  <button buttonTrigger mat-button><span >Open the popup!</span></button>
+  <my-dialog-content content (close)="onClose($event)"></my-dialog-content>
+</popup>

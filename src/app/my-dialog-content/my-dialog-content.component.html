@@ -1,0 +1,10 @@
+<mat-dialog-content>
+	my-dialog-content works!
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<ng-container ngProjectAs="btn-close">
+    <button mat-button color="warn" (click)="onClose()">Close</button>
+  </ng-container>
+	<button mat-button color="primary" type="submit" cdkFocusInitial>Submit</button>
+</mat-dialog-actions>

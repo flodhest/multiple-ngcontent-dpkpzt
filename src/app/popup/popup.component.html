@@ -1,0 +1,6 @@
+<div (click)="openDialog()">
+	<ng-content select="[buttonTrigger]"></ng-content>
+</div>
+<ng-template #dialogContent >
+	<ng-content select="[content]"></ng-content>
+</ng-template>
